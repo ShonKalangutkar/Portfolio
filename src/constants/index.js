@@ -63,126 +63,76 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "AI Research Agent (Multi-Model Tool Discovery)",
+    desc: "An AI-powered research agent that intelligently discovers and analyzes software tool alternatives by combining multi-model reasoning with real-time web data extraction.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.example.com",
+      "Built using LangChain, Ollama (gpt-oss:20b), and Firecrawl, the system leverages locally hosted LLMs for privacy, reduced cost, and efficient multi-step reasoning across tool comparison workflows.",
+    href: "https://github.com/ShonKalangutkar/research-agent",
     texture: "/textures/project/project1.mp4",
-    logo: "/assets/project-logo1.png",
+    logo: "/assets/AIresearch.png",
     logoStyle: {
-      backgroundColor: "#2A1816",
-      border: "0.2px solid #36201D",
-      boxShadow: "0px 0px 60px 0px #AA3C304D",
+      backgroundColor: "#1A1A2E",
+      border: "0.2px solid #2A2A40",
+      boxShadow: "0px 0px 60px 0px #6C63FF4D",
     },
     spotlight: "/assets/spotlight1.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "/assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      { id: 1, name: "LangChain", path: "/assets/langchain.png" },
+      { id: 2, name: "Ollama", path: "/assets/ollama.png" },
+      { id: 3, name: "LLM", path: "/assets/llm.png" },
+      { id: 4, name: "Firecrawl", path: "/assets/firecrawl.png" },
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "Movie Recommendation System",
+    desc: "A content-based movie recommendation system that suggests movies using similarity scores and feature vectorization techniques, enabling users to discover relevant content efficiently.",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.example.com",
+      "Built using Python, Pandas, Scikit-learn, and Streamlit, the application provides an interactive web interface for real-time recommendations with cosine similarity-based filtering.",
+    href: "https://movie-rcommendation-app.streamlit.app/",
     texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
+    logo: "/assets/MovieRecommendation.png",
+    logoStyle: {
+      backgroundColor: "#1E1E1E",
+      border: "0.2px solid #333",
+      boxShadow: "0px 0px 60px 0px #9999994D",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      { id: 1, name: "Python", path: "/assets/python.png" },
+      { id: 2, name: "Pandas", path: "/assets/pandas.png" },
+      { id: 3, name: "Scikit-learn", path: "/assets/sklearn.png" },
+      { id: 4, name: "Streamlit", path: "/assets/streamlit.png" },
+    ],
+  },
+  {
+    title: "Medical Chatbot (RAG-based AI Assistant)",
+    desc: "An AI-powered medical chatbot that answers user queries using Retrieval-Augmented Generation (RAG), enabling accurate and context-aware responses from medical documents.",
+    subdesc:
+      "Developed using LangChain, Hugging Face embeddings, vector databases, and Flask, the system performs semantic search and integrates LLMs for intelligent conversational responses.",
+    href: "https://github.com/ShonKalangutkar/medical-chatbot",
+    texture: "/textures/project/project3.mp4",
+    logo: "/assets/medical.png",
     logoStyle: {
       backgroundColor: "#13202F",
       border: "0.2px solid #17293E",
       boxShadow: "0px 0px 60px 0px #2F6DB54D",
     },
-    spotlight: "/assets/spotlight2.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "/assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
-    subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.example.com",
-    texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo3.png",
-    logoStyle: {
-      backgroundColor: "#60f5a1",
-      background:
-        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
-      border: "0.2px solid rgba(208, 213, 221, 1)",
-      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
-    },
     spotlight: "/assets/spotlight3.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "/assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      { id: 1, name: "Python", path: "/assets/python.png" },
+      { id: 2, name: "LangChain", path: "/assets/langchain.png" },
+      { id: 3, name: "HuggingFace", path: "/assets/huggingface.png" },
+      { id: 4, name: "Flask", path: "/assets/flask.png" },
     ],
   },
   {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
+    title: "KubeBuddy PDF Reporting Feature",
+    desc: "Implemented a production-ready PDF reporting feature for Kubernetes audits, enabling reliable demo outputs and improving client confidence in enterprise environments.",
     subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.example.com",
+      "Developed as part of Thinknyx’s in-house Kubernetes project using Django and backend APIs, ensuring consistent metric generation and structured reporting workflows.",
+    href: "http://kubebuddy.org",
     texture: "/textures/project/project4.mp4",
-    logo: "/assets/project-logo4.png",
+    logo: "/assets/KubeBuddy.png",
     logoStyle: {
       backgroundColor: "#0E1F38",
       border: "0.2px solid #0E2D58",
@@ -190,36 +140,20 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight4.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "/assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      { id: 1, name: "Django", path: "/assets/django.png" },
+      { id: 2, name: "REST APIs", path: "/assets/api.png" },
+      { id: 3, name: "Kubernetes", path: "/assets/kubernetes.png" },
+      { id: 4, name: "Python", path: "/assets/python.png" },
     ],
   },
   {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
+    title: "Agentic AI Demo (LangChain + LLM)",
+    desc: "Developed an Agentic AI system capable of autonomous reasoning and task execution, helping unblock teams by delivering a working prototype where none existed.",
     subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.example.com",
+      "Built using LangChain with local LLM inference (LLaMA-2 via Hugging Face), reducing external API dependency, lowering costs, and improving reliability.",
+    href: "https://github.com/ShonKalangutkar",
     texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
+    logo: "/assets/AIsystem.png",
     logoStyle: {
       backgroundColor: "#1C1A43",
       border: "0.2px solid #252262",
@@ -227,26 +161,10 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight5.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "/assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      { id: 1, name: "LangChain", path: "/assets/langchain.png" },
+      { id: 2, name: "LLaMA-2", path: "/assets/ollama.png" },
+      { id: 3, name: "HuggingFace", path: "/assets/huggingface.png" },
+      { id: 4, name: "Python", path: "/assets/python.png" },
     ],
   },
 ];
@@ -288,16 +206,11 @@ export const socialLinks = [
   {
     name: "GitHub",
     icon: "/assets/github.svg",
-    url: "https://github.com",
+    url: "https://github.com/ShonKalangutkar",
   },
   {
-    name: "Twitter",
-    icon: "/assets/twitter.svg",
-    url: "https://x.com/_sanidhyy",
-  },
-  {
-    name: "Instagram",
-    icon: "/assets/instagram.svg",
-    url: "https://instagram.com",
+    name: "LinkedIn",
+    icon: "/assets/LinkedIn.png",
+    url: "https://www.linkedin.com/in/shon-kalangutkar/",
   },
 ];

@@ -90,10 +90,9 @@ const About = () => {
               className="w-full sm:h-[266px] h-fit object-contain"
             />
             <div className="mt-4">
-              <p className="grid-headtext">My Passion for Coding</p>
+              <p className="grid-headtext">Building Intelligent Systems</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Coding
-                isn't just my profession - it is my passion.
+                I design and build AI-driven systems that think, reason, and solve real-world problems. From agentic workflows to scalable backend solutions, I turn complex ideas into working products.
               </p>
             </div>
           </div>
